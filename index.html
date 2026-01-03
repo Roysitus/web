@@ -1,0 +1,935 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#565247" />
+
+  <title>ELOHIM CÍRCULO DE ESTUDIOS | Apoyo académico en Perú</title>
+  <meta name="description" content="ELOHIM Círculo de Estudios brinda apoyo académico independiente en Perú. Investigación, tesis y cursos transversales con acompañamiento claro y ordenado." />
+  <meta name="robots" content="index,follow" />
+  <meta name="keywords" content="apoyo académico, asesoría universitaria, investigación, tesis, formación para la investigación, taller de investigación, Perú" />
+
+  <meta property="og:title" content="ELOHIM Círculo de Estudios" />
+  <meta property="og:description" content="Apoyo académico independiente en Perú. Investigación, tesis y cursos transversales." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "ELOHIM Círculo de Estudios",
+    "description": "Apoyo académico independiente en Perú, con foco en investigación, tesis y cursos transversales.",
+    "areaServed": "PE",
+    "url": "https://example.com"
+  }
+  </script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90" tabindex="0">
+
+  <!-- Fondo: figuras en cascada -->
+  <div class="cascade" aria-hidden="true">
+    <span class="cshape square"></span>
+    <span class="cshape circle"></span>
+    <span class="cshape tri"></span>
+    <span class="cshape square"></span>
+    <span class="cshape circle"></span>
+    <span class="cshape tri"></span>
+    <span class="cshape square"></span>
+    <span class="cshape circle"></span>
+    <span class="cshape tri"></span>
+    <span class="cshape square"></span>
+    <span class="cshape circle"></span>
+    <span class="cshape tri"></span>
+    <span class="cshape square"></span>
+    <span class="cshape circle"></span>
+  </div>
+
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark nav-glass fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio" aria-label="Ir a inicio">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img" focusable="false">
+            <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2"></circle>
+            <circle cx="32" cy="32" r="4.5" fill="currentColor"></circle>
+            <ellipse cx="32" cy="32" rx="20" ry="9" fill="none" stroke="currentColor" stroke-width="2"></ellipse>
+            <ellipse cx="32" cy="32" rx="20" ry="9" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(60 32 32)"></ellipse>
+            <ellipse cx="32" cy="32" rx="20" ry="9" fill="none" stroke="currentColor" stroke-width="2" transform="rotate(-60 32 32)"></ellipse>
+          </svg>
+        </span>
+        <span class="brand-title">
+          ELOHIM <span class="brand-sub">CÍRCULO DE ESTUDIOS</span>
+        </span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navItems" aria-controls="navItems" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navItems">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#asesor">Asesor</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          <li class="nav-item ms-lg-2">
+            <button class="btn btn-accent btn-sm px-3" id="btnNavWhats" type="button">WhatsApp</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- INICIO -->
+  <header id="inicio" class="hero-section layer">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <div class="pill mb-3">
+          <span class="dot"></span>
+          Apoyo académico independiente en Perú
+        </div>
+
+        <h1 class="display-5 fw-semibold hero-title">
+          Investigación y tesis con orden, claridad y avance real
+        </h1>
+
+        <p class="lead hero-lead">
+          Acompañamiento para construir entregables sólidos: estructura, metodología, revisión y mejoras.
+          Se trabaja con enfoque práctico y criterio académico.
+        </p>
+
+        <div class="d-flex flex-wrap gap-2 mt-4">
+          <a class="btn btn-accent btn-lg" href="#cursos">Ver cursos</a>
+          <button class="btn btn-outline-light btn-lg" id="btnFocusUni" type="button">Ir a mi ruta</button>
+          <button class="btn btn-outline-light btn-lg" id="btnFocusCourse" type="button">Ir a mi curso</button>
+        </div>
+
+        <div class="hero-metrics mt-4">
+          <div class="metric">
+            <div class="metric-num" data-count="4">0</div>
+            <div class="metric-label">Rutas clave</div>
+          </div>
+          <div class="metric">
+            <div class="metric-num" data-count="6">0</div>
+            <div class="metric-label">Enfoques de apoyo</div>
+          </div>
+          <div class="metric">
+            <div class="metric-num" data-count="5">0</div>
+            <div class="metric-label">Estilos visuales</div>
+          </div>
+        </div>
+
+        <p class="legal-note mt-4">
+          Servicio de apoyo académico independiente. No se representa ni se usa marca de instituciones.
+        </p>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbital-card">
+          <div class="orbital-top">
+            <h2 class="h5 mb-1">Rutas principales</h2>
+            <p class="small text-muted mb-0">Acceso directo a lo más solicitado.</p>
+          </div>
+
+          <div class="orbital-body">
+            <div class="focus-chip chip-a">
+              <span class="k"></span>
+              <div>
+                <div class="t">Tesis I</div>
+                <div class="d">Planteamiento y base metodológica</div>
+              </div>
+            </div>
+            <div class="focus-chip chip-b">
+              <span class="k"></span>
+              <div>
+                <div class="t">Tesis II</div>
+                <div class="d">Resultados, discusión y cierre</div>
+              </div>
+            </div>
+            <div class="focus-chip chip-c">
+              <span class="k"></span>
+              <div>
+                <div class="t">Formación para la investigación</div>
+                <div class="d">Bases, variables y diseño</div>
+              </div>
+            </div>
+            <div class="focus-chip chip-d">
+              <span class="k"></span>
+              <div>
+                <div class="t">Taller de investigación</div>
+                <div class="d">Instrumentos, análisis y redacción</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="orbital-ring" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="layer">
+    <!-- SERVICIOS -->
+    <section id="servicios" class="section-pad">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="h1 fw-semibold mb-2">Servicios</h2>
+          <p class="text-muted mb-0">
+            Elige una ruta y trabaja con una guía clara desde el primer avance hasta el cierre final.
+          </p>
+        </div>
+
+        <div class="toolbar reveal mt-4">
+          <div class="row g-2 align-items-center">
+            <div class="col-12 col-lg-6">
+              <div class="input-group input-glass">
+                <span class="input-group-text">Buscar</span>
+                <input id="searchUni" type="text" class="form-control" placeholder="Ej: norte, tecnológico, ejecutivo" autocomplete="off" />
+                <button class="btn btn-accent" id="btnClearUni" type="button">Limpiar</button>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6 d-flex justify-content-lg-end">
+              <div class="btn-group btn-group-sm" role="group" aria-label="Filtrar por enfoque">
+                <button class="btn btn-outline-light active" data-filter="all" type="button">Todo</button>
+                <button class="btn btn-outline-light" data-filter="tesis" type="button">Tesis</button>
+                <button class="btn btn-outline-light" data-filter="investigacion" type="button">Investigación</button>
+                <button class="btn btn-outline-light" data-filter="cursos" type="button">Cursos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-4 mt-2" id="uniGrid">
+          <div class="col-12 col-md-6 col-xl-4 uni-item reveal" data-uni="norte" data-tags="tesis">
+            <article class="uni-card uni-norte" tabindex="0">
+              <header class="uni-card-head">
+                <div>
+                  <div class="uni-kicker">Ruta Norte</div>
+                  <h3 class="h4 mb-0">Tesis</h3>
+                </div>
+                <div class="uni-badge">NO</div>
+              </header>
+
+              <div class="uni-card-body">
+                <div class="tag-row">
+                  <span class="tag">Tesis I</span>
+                  <span class="tag">Tesis II</span>
+                  <span class="tag soft">Revisión</span>
+                </div>
+
+                <p class="mb-3">
+                  Apoyo en estructura, coherencia, metodología y presentación final del documento.
+                </p>
+
+                <div class="service-mini">
+                  <div class="sm-item"><span class="sm-dot"></span> Planteamiento y objetivos</div>
+                  <div class="sm-item"><span class="sm-dot"></span> Metodología y consistencia</div>
+                  <div class="sm-item"><span class="sm-dot"></span> Resultados y conclusiones</div>
+                </div>
+              </div>
+
+              <footer class="uni-card-foot">
+                <button class="btn btn-sm btn-outline-light w-100 btnPickUni" data-pick="norte" type="button">Elegir ruta</button>
+              </footer>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-4 uni-item reveal" data-uni="tecnologico" data-tags="investigacion">
+            <article class="uni-card uni-tec" tabindex="0">
+              <header class="uni-card-head">
+                <div>
+                  <div class="uni-kicker">Ruta Tecnológica</div>
+                  <h3 class="h4 mb-0">Investigación</h3>
+                </div>
+                <div class="uni-badge">TE</div>
+              </header>
+
+              <div class="uni-card-body">
+                <div class="tag-row">
+                  <span class="tag">Formación</span>
+                  <span class="tag">Taller</span>
+                  <span class="tag soft">Instrumentos</span>
+                </div>
+
+                <p class="mb-3">
+                  Avance ordenado desde el diseño hasta el análisis y la redacción final.
+                </p>
+
+                <div class="service-mini">
+                  <div class="sm-item"><span class="sm-dot"></span> Problema e hipótesis</div>
+                  <div class="sm-item"><span class="sm-dot"></span> Variables e instrumentos</div>
+                  <div class="sm-item"><span class="sm-dot"></span> Análisis y cierre</div>
+                </div>
+              </div>
+
+              <footer class="uni-card-foot">
+                <button class="btn btn-sm btn-outline-light w-100 btnPickUni" data-pick="tecnologico" type="button">Elegir ruta</button>
+              </footer>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-4 uni-item reveal" data-uni="ejecutivo" data-tags="cursos investigacion">
+            <article class="uni-card uni-eje" tabindex="0">
+              <header class="uni-card-head">
+                <div>
+                  <div class="uni-kicker">Ruta Ejecutiva</div>
+                  <h3 class="h4 mb-0">Metodología</h3>
+                </div>
+                <div class="uni-badge">EX</div>
+              </header>
+
+              <div class="uni-card-body">
+                <div class="tag-row">
+                  <span class="tag">Estructura</span>
+                  <span class="tag">Redacción</span>
+                  <span class="tag soft">Normas</span>
+                </div>
+
+                <p class="mb-3">
+                  Refuerzo para ordenar entregables, mejorar claridad y corregir consistencia del texto.
+                </p>
+
+                <div class="service-mini">
+                  <div class="sm-item"><span class="sm-dot"></span> Formato y capítulos</div>
+                  <div class="sm-item"><span class="sm-dot"></span> Coherencia y citación</div>
+                  <div class="sm-item"><span class="sm-dot"></span> Presentación final</div>
+                </div>
+              </div>
+
+              <footer class="uni-card-foot">
+                <button class="btn btn-sm btn-outline-light w-100 btnPickUni" data-pick="ejecutivo" type="button">Elegir ruta</button>
+              </footer>
+            </article>
+          </div>
+        </div>
+
+        <div class="cta-panel reveal mt-5">
+          <div class="row g-3 align-items-center">
+            <div class="col-12 col-lg-8">
+              <h3 class="h4 mb-1">Listo para empezar</h3>
+              <p class="text-muted mb-0">
+                En Cursos se encuentran las rutas principales: Tesis I, Tesis II, Formación y Taller.
+              </p>
+            </div>
+            <div class="col-12 col-lg-4 d-flex justify-content-lg-end">
+              <a class="btn btn-accent w-100 w-lg-auto" href="#cursos">Ir a Cursos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURSOS -->
+    <section id="cursos" class="section-pad section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="h1 fw-semibold mb-2">Cursos</h2>
+          <p class="text-muted mb-0">
+            Selecciona el curso y se mantendrá resaltado para la sesión.
+          </p>
+        </div>
+
+        <div class="toolbar reveal mt-4">
+          <div class="row g-2 align-items-center">
+            <div class="col-12 col-lg-6">
+              <div class="input-group input-glass">
+                <span class="input-group-text">Buscar</span>
+                <input id="searchCourse" type="text" class="form-control" placeholder="Ej: tesis, formación, taller" autocomplete="off" />
+                <button class="btn btn-accent" id="btnClearCourse" type="button">Limpiar</button>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6 d-flex justify-content-lg-end">
+              <div class="btn-group btn-group-sm" role="group" aria-label="Filtrar cursos">
+                <button class="btn btn-outline-light active" data-cfilter="all" type="button">Todo</button>
+                <button class="btn btn-outline-light" data-cfilter="tesis" type="button">Tesis</button>
+                <button class="btn btn-outline-light" data-cfilter="investigacion" type="button">Investigación</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-4 mt-2" id="courseGrid">
+          <div class="col-12 col-lg-6 reveal course-item" data-course="tesis i" data-tags="tesis norte">
+            <article class="course-card course-norte" tabindex="0">
+              <header class="course-head">
+                <div class="course-mark" aria-hidden="true"></div>
+                <div>
+                  <div class="course-kicker">Ruta Norte</div>
+                  <h3 class="h4 mb-0">Tesis I</h3>
+                </div>
+                <span class="course-badge">T1</span>
+              </header>
+
+              <div class="course-body">
+                <div class="tag-row">
+                  <span class="tag">Tema</span>
+                  <span class="tag">Problema</span>
+                  <span class="tag soft">Metodología</span>
+                </div>
+                <p class="mb-3">
+                  Planteamiento sólido: delimitación, objetivos, consistencia y base metodológica.
+                </p>
+                <div class="course-points">
+                  <div class="cp"><span class="cp-dot"></span> Estructura por capítulos</div>
+                  <div class="cp"><span class="cp-dot"></span> Matriz de consistencia</div>
+                  <div class="cp"><span class="cp-dot"></span> Instrumentos base</div>
+                </div>
+              </div>
+
+              <footer class="course-foot">
+                <button class="btn btn-sm btn-outline-dark w-100 btnPickCourse" data-pick="tesis1" type="button">Seleccionar curso</button>
+              </footer>
+            </article>
+          </div>
+
+          <div class="col-12 col-lg-6 reveal course-item" data-course="tesis ii" data-tags="tesis norte">
+            <article class="course-card course-norte" tabindex="0">
+              <header class="course-head">
+                <div class="course-mark" aria-hidden="true"></div>
+                <div>
+                  <div class="course-kicker">Ruta Norte</div>
+                  <h3 class="h4 mb-0">Tesis II</h3>
+                </div>
+                <span class="course-badge">T2</span>
+              </header>
+
+              <div class="course-body">
+                <div class="tag-row">
+                  <span class="tag">Resultados</span>
+                  <span class="tag">Discusión</span>
+                  <span class="tag soft">Cierre</span>
+                </div>
+                <p class="mb-3">
+                  Ejecución y cierre: análisis, redacción final, coherencia global y ajustes.
+                </p>
+                <div class="course-points">
+                  <div class="cp"><span class="cp-dot"></span> Tablas y evidencias</div>
+                  <div class="cp"><span class="cp-dot"></span> Interpretación y contraste</div>
+                  <div class="cp"><span class="cp-dot"></span> Corrección integral</div>
+                </div>
+              </div>
+
+              <footer class="course-foot">
+                <button class="btn btn-sm btn-outline-dark w-100 btnPickCourse" data-pick="tesis2" type="button">Seleccionar curso</button>
+              </footer>
+            </article>
+          </div>
+
+          <div class="col-12 col-lg-6 reveal course-item" data-course="formación para la investigación" data-tags="investigacion tecnologica">
+            <article class="course-card course-tec" tabindex="0">
+              <header class="course-head">
+                <div class="course-mark" aria-hidden="true"></div>
+                <div>
+                  <div class="course-kicker">Ruta Tecnológica</div>
+                  <h3 class="h4 mb-0">Formación para la Investigación</h3>
+                </div>
+                <span class="course-badge">FI</span>
+              </header>
+
+              <div class="course-body">
+                <div class="tag-row">
+                  <span class="tag">Bases</span>
+                  <span class="tag">Variables</span>
+                  <span class="tag soft">Diseño</span>
+                </div>
+                <p class="mb-3">
+                  Fundamentos para definir problema, hipótesis, objetivos y diseño del trabajo.
+                </p>
+                <div class="course-points">
+                  <div class="cp"><span class="cp-dot"></span> Enfoque y alcance</div>
+                  <div class="cp"><span class="cp-dot"></span> Operacionalización</div>
+                  <div class="cp"><span class="cp-dot"></span> Plan de avance</div>
+                </div>
+              </div>
+
+              <footer class="course-foot">
+                <button class="btn btn-sm btn-outline-light w-100 btnPickCourse" data-pick="formacion" type="button">Seleccionar curso</button>
+              </footer>
+            </article>
+          </div>
+
+          <div class="col-12 col-lg-6 reveal course-item" data-course="taller de investigación" data-tags="investigacion tecnologica">
+            <article class="course-card course-tec" tabindex="0">
+              <header class="course-head">
+                <div class="course-mark" aria-hidden="true"></div>
+                <div>
+                  <div class="course-kicker">Ruta Tecnológica</div>
+                  <h3 class="h4 mb-0">Taller de Investigación</h3>
+                </div>
+                <span class="course-badge">TI</span>
+              </header>
+
+              <div class="course-body">
+                <div class="tag-row">
+                  <span class="tag">Instrumentos</span>
+                  <span class="tag">Análisis</span>
+                  <span class="tag soft">Redacción</span>
+                </div>
+                <p class="mb-3">
+                  Desarrollo completo: medición, análisis, resultados, discusión y documento final.
+                </p>
+                <div class="course-points">
+                  <div class="cp"><span class="cp-dot"></span> Cuestionarios y fichas</div>
+                  <div class="cp"><span class="cp-dot"></span> Tablas y gráficos</div>
+                  <div class="cp"><span class="cp-dot"></span> Capítulos finales</div>
+                </div>
+              </div>
+
+              <footer class="course-foot">
+                <button class="btn btn-sm btn-outline-light w-100 btnPickCourse" data-pick="taller" type="button">Seleccionar curso</button>
+              </footer>
+            </article>
+          </div>
+        </div>
+
+        <div class="cta-panel reveal mt-5">
+          <div class="row g-3 align-items-center">
+            <div class="col-12 col-lg-8">
+              <h3 class="h4 mb-1">¿Necesitas una ruta recomendada?</h3>
+              <p class="text-muted mb-0">
+                El contacto por WhatsApp permite orientar el curso ideal según el avance actual.
+              </p>
+            </div>
+            <div class="col-12 col-lg-4 d-flex justify-content-lg-end">
+              <a class="btn btn-accent w-100 w-lg-auto" href="#contacto">Ir a Contacto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ASESOR -->
+    <section id="asesor" class="section-pad">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="h1 fw-semibold mb-2">Asesor</h2>
+          <p class="text-muted mb-0">
+            Perfil profesional y herramientas dominadas para acompañamiento aplicado.
+          </p>
+        </div>
+
+        <div class="row g-4 mt-2 align-items-stretch">
+          <div class="col-12 col-lg-4 reveal">
+            <article class="advisor-card h-100">
+              <div class="advisor-top">
+                <div class="avatar" aria-hidden="true"><span>JL</span></div>
+                <div>
+                  <div class="advisor-role">Ingeniero Industrial</div>
+                  <h3 class="h4 mb-0">José Luis Álvarez Julca</h3>
+                  <div class="advisor-sub mt-2">
+                    Enfoque en mejora continua, análisis, herramientas y acompañamiento académico aplicado.
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-3 d-grid gap-2">
+                <button class="btn btn-accent" id="btnCopyName" type="button">Copiar nombre</button>
+                <a class="btn btn-outline-dark" href="#contacto">Contactar</a>
+              </div>
+
+              <div class="advisor-note mt-3">
+                Información mostrada como ficha profesional.
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-lg-8 reveal">
+            <div class="accordion accord-glass" id="accAsesor">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c1" aria-expanded="true" aria-controls="c1">
+                    Cursos especializados
+                  </button>
+                </h2>
+                <div id="c1" class="accordion-collapse collapse show" data-bs-parent="#accAsesor">
+                  <div class="accordion-body">
+                    <div class="chip-grid">
+                      <span class="chip">Módulo de computación: Windows e Internet</span>
+                      <span class="chip">Microsoft Word</span>
+                      <span class="chip">Excel 2010</span>
+                      <span class="chip">PowerPoint</span>
+                      <span class="chip">Access (102 horas)</span>
+                      <span class="chip soft">Centro de Cómputo (Fac. Ing. Industrial y Sistemas)</span>
+
+                      <span class="chip">AutoCAD 2010 (Intermedio)</span>
+                      <span class="chip soft">Universidad Nacional de Ingeniería</span>
+
+                      <span class="chip">AutoCAD 2013 (Intermedio)</span>
+                      <span class="chip soft">Aduni</span>
+
+                      <span class="chip">Inglés (Básico)</span>
+                      <span class="chip soft">Universidad Nacional del Callao</span>
+
+                      <span class="chip">Programación Turbo C++</span>
+                      <span class="chip soft">Universidad Nacional del Callao</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c2" aria-expanded="false" aria-controls="c2">
+                    Cursos capacitados
+                  </button>
+                </h2>
+                <div id="c2" class="accordion-collapse collapse" data-bs-parent="#accAsesor">
+                  <div class="accordion-body">
+                    <div class="chip-grid">
+                      <span class="chip">Lantek Expert Cut</span>
+                      <span class="chip soft">Fima S.A.C. / Técnicas Metálicas Ingenieros S.A.C.</span>
+
+                      <span class="chip">Nest Master</span>
+                      <span class="chip soft">Técnicas Metálicas Ingenieros S.A.C.</span>
+
+                      <span class="chip">Owni Win</span>
+                      <span class="chip soft">Técnicas Metálicas Ingenieros S.A.C.</span>
+
+                      <span class="chip">Shop Data</span>
+                      <span class="chip soft">Técnicas Metálicas Ingenieros S.A.C.</span>
+
+                      <span class="chip">Win MPM</span>
+                      <span class="chip soft">Fima S.A.C.</span>
+
+                      <span class="chip">OEE</span>
+                      <span class="chip soft">Fima S.A.C.</span>
+
+                      <span class="chip">Lean Manufacturing (5S, SMED, mejoras continuas)</span>
+                      <span class="chip soft">Fima S.A.C.</span>
+
+                      <span class="chip">ERP Global Shop</span>
+                      <span class="chip soft">Fima S.A.C.</span>
+
+                      <span class="chip">ERP Oracle</span>
+                      <span class="chip soft">Técnicas Metálicas Ingenieros S.A.C.</span>
+
+                      <span class="chip">AutoCAD</span>
+                      <span class="chip">Microsoft Excel 2018</span>
+                      <span class="chip">Power BI</span>
+                      <span class="chip">SPSS</span>
+                      <span class="chip">LINGO</span>
+                      <span class="chip">Microsoft Project</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="cta-panel mt-4">
+              <div class="row g-3 align-items-center">
+                <div class="col-12 col-lg-8">
+                  <h3 class="h5 mb-1">Trabajo con entregables</h3>
+                  <p class="text-muted mb-0">
+                    Se prioriza avance medible: revisión, mejoras y orden del documento con retroalimentación directa.
+                  </p>
+                </div>
+                <div class="col-12 col-lg-4 d-flex justify-content-lg-end">
+                  <a class="btn btn-accent w-100 w-lg-auto" href="#contacto">Contactar</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section-pad section-alt-2">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="h1 fw-semibold mb-2">Contacto</h2>
+          <p class="text-muted mb-0">
+            Atención directa por WhatsApp para orientar el curso y el tipo de apoyo según el avance.
+          </p>
+        </div>
+
+        <div class="row g-4 mt-2 align-items-stretch">
+          <div class="col-12 col-lg-7 reveal">
+            <article class="contact-card h-100">
+              <header class="contact-head">
+                <div class="contact-badge" aria-hidden="true">WA</div>
+                <div>
+                  <div class="contact-kicker">WhatsApp</div>
+                  <h3 class="h4 mb-0">+51 946 457 605</h3>
+                  <div class="contact-sub mt-2">Respuesta rápida para coordinar orientación y orden del avance.</div>
+                </div>
+              </header>
+
+              <div class="contact-body">
+                <div class="contact-actions">
+                  <button class="btn btn-accent btn-lg" id="btnWhatsApp" type="button">Abrir WhatsApp</button>
+                  <button class="btn btn-outline-dark btn-lg" id="btnCopyWsp" type="button">Copiar número</button>
+                </div>
+
+                <div class="contact-mini mt-3">
+                  <div class="cm"><span class="cm-dot"></span> Consulta breve del curso</div>
+                  <div class="cm"><span class="cm-dot"></span> Recomendación de ruta</div>
+                  <div class="cm"><span class="cm-dot"></span> Coordinación de entrega</div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-lg-5 reveal">
+            <article class="contact-side h-100">
+              <h3 class="h5 mb-2">Sugerencia para escribir</h3>
+              <p class="text-muted mb-0">
+                Un mensaje corto con el curso, semana y qué parte se necesita ordenar suele acelerar la respuesta.
+              </p>
+
+              <div class="msg-sample mt-3">
+                <div class="ms-title">Ejemplo</div>
+                <div class="ms-box" id="msgBox">
+                  Hola, deseo apoyo en Tesis I. Estoy en la semana 4 y necesito ordenar problema, objetivos y metodología.
+                </div>
+                <button class="btn btn-outline-dark mt-3 w-100" id="btnCopyMsg" type="button">Copiar ejemplo</button>
+              </div>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer layer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">ELOHIM CÍRCULO DE ESTUDIOS</div>
+          <div class="footer-sub">Apoyo académico independiente en Perú</div>
+        </div>
+        <div class="footer-legal">
+          Servicio independiente. No se usan marcas de instituciones.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="pickToast" class="toast text-bg-dark border-0" role="status" aria-live="polite" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body" id="toastMsg">Listo.</div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Cerrar"></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    // Reveal
+    const revealEls = document.querySelectorAll(".reveal");
+    if (!prefersReduced && "IntersectionObserver" in window) {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add("is-visible"); });
+      }, { threshold: 0.12 });
+      revealEls.forEach(el => io.observe(el));
+    } else {
+      revealEls.forEach(el => el.classList.add("is-visible"));
+    }
+
+    // Counters
+    const counters = document.querySelectorAll("[data-count]");
+    const animateCounters = () => {
+      counters.forEach(el => {
+        const target = Number(el.getAttribute("data-count"));
+        let cur = 0;
+        const step = Math.max(1, Math.floor(target / 40));
+        const t = setInterval(() => {
+          cur += step;
+          if (cur >= target) { cur = target; clearInterval(t); }
+          el.textContent = cur;
+        }, 22);
+      });
+    };
+    setTimeout(() => {
+      if (!prefersReduced) animateCounters();
+      else counters.forEach(el => el.textContent = el.dataset.count);
+    }, 450);
+
+    // Toast
+    const toastEl = document.getElementById("pickToast");
+    const toastMsg = document.getElementById("toastMsg");
+    const toast = bootstrap.Toast.getOrCreateInstance(toastEl, { delay: 2200 });
+
+    // SERVICIOS filter
+    const uniGrid = document.getElementById("uniGrid");
+    const searchUni = document.getElementById("searchUni");
+    const btnClearUni = document.getElementById("btnClearUni");
+    const filterBtns = document.querySelectorAll("[data-filter]");
+    let activeFilter = "all";
+
+    function applyUniFilter(){
+      const q = (searchUni.value || "").trim().toLowerCase();
+      const items = uniGrid.querySelectorAll(".uni-item");
+      items.forEach(it => {
+        const uni = (it.getAttribute("data-uni") || "").toLowerCase();
+        const tags = (it.getAttribute("data-tags") || "").toLowerCase();
+        const matchText = !q || uni.includes(q);
+        const matchTag = (activeFilter === "all") || tags.includes(activeFilter);
+        it.classList.toggle("d-none", !(matchText && matchTag));
+      });
+    }
+
+    searchUni.addEventListener("input", applyUniFilter);
+    btnClearUni.addEventListener("click", () => { searchUni.value = ""; applyUniFilter(); searchUni.focus(); });
+
+    filterBtns.forEach(b => {
+      b.addEventListener("click", () => {
+        filterBtns.forEach(x => x.classList.remove("active"));
+        b.classList.add("active");
+        activeFilter = b.getAttribute("data-filter");
+        applyUniFilter();
+      });
+    });
+
+    function highlightPickUni(pick){
+      document.querySelectorAll(".uni-card").forEach(c => c.classList.remove("picked"));
+      const target = document.querySelector('.uni-item[data-uni="' + pick + '"] .uni-card');
+      if (target) target.classList.add("picked");
+    }
+
+    document.querySelectorAll(".btnPickUni").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const pick = btn.getAttribute("data-pick");
+        localStorage.setItem("elohim_pick_uni", pick);
+        toastMsg.textContent = "Ruta seleccionada.";
+        toast.show();
+        highlightPickUni(pick);
+      });
+    });
+
+    const savedUni = localStorage.getItem("elohim_pick_uni");
+    if (savedUni) highlightPickUni(savedUni);
+
+    // CURSOS filter + pick
+    const courseGrid = document.getElementById("courseGrid");
+    const searchCourse = document.getElementById("searchCourse");
+    const btnClearCourse = document.getElementById("btnClearCourse");
+    const cFilterBtns = document.querySelectorAll("[data-cfilter]");
+    let activeCFilter = "all";
+
+    function applyCourseFilter(){
+      const q = (searchCourse.value || "").trim().toLowerCase();
+      const items = courseGrid.querySelectorAll(".course-item");
+      items.forEach(it => {
+        const title = (it.getAttribute("data-course") || "").toLowerCase();
+        const tags = (it.getAttribute("data-tags") || "").toLowerCase();
+        const matchText = !q || title.includes(q) || tags.includes(q);
+        const matchTag = (activeCFilter === "all") || tags.includes(activeCFilter);
+        it.classList.toggle("d-none", !(matchText && matchTag));
+      });
+    }
+
+    searchCourse.addEventListener("input", applyCourseFilter);
+    btnClearCourse.addEventListener("click", () => { searchCourse.value = ""; applyCourseFilter(); searchCourse.focus(); });
+
+    cFilterBtns.forEach(b => {
+      b.addEventListener("click", () => {
+        cFilterBtns.forEach(x => x.classList.remove("active"));
+        b.classList.add("active");
+        activeCFilter = b.getAttribute("data-cfilter");
+        applyCourseFilter();
+      });
+    });
+
+    function highlightPickCourse(pick){
+      document.querySelectorAll(".course-card").forEach(c => c.classList.remove("picked"));
+      const map = {
+        "tesis1": "tesis i",
+        "tesis2": "tesis ii",
+        "formacion": "formación para la investigación",
+        "taller": "taller de investigación"
+      };
+      const key = map[pick] || "";
+      const target = document.querySelector('.course-item[data-course="' + key + '"] .course-card');
+      if (target) target.classList.add("picked");
+    }
+
+    document.querySelectorAll(".btnPickCourse").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const pick = btn.getAttribute("data-pick");
+        localStorage.setItem("elohim_pick_course", pick);
+        toastMsg.textContent = "Curso seleccionado.";
+        toast.show();
+        highlightPickCourse(pick);
+      });
+    });
+
+    const savedCourse = localStorage.getItem("elohim_pick_course");
+    if (savedCourse) highlightPickCourse(savedCourse);
+
+    // Hero focus buttons
+    document.getElementById("btnFocusUni").addEventListener("click", () => {
+      const pick = localStorage.getItem("elohim_pick_uni");
+      if (!pick) { toastMsg.textContent = "Selecciona una ruta en Servicios."; toast.show(); return; }
+      const node = document.querySelector('.uni-item[data-uni="' + pick + '"]');
+      if (node) node.scrollIntoView({ behavior: prefersReduced ? "auto" : "smooth", block: "center" });
+    });
+
+    document.getElementById("btnFocusCourse").addEventListener("click", () => {
+      const pick = localStorage.getItem("elohim_pick_course");
+      if (!pick) { toastMsg.textContent = "Selecciona un curso en Cursos."; toast.show(); return; }
+      const map = {
+        "tesis1": "tesis i",
+        "tesis2": "tesis ii",
+        "formacion": "formación para la investigación",
+        "taller": "taller de investigación"
+      };
+      const key = map[pick] || "";
+      const node = document.querySelector('.course-item[data-course="' + key + '"]');
+      if (node) node.scrollIntoView({ behavior: prefersReduced ? "auto" : "smooth", block: "center" });
+    });
+
+    // Copy name
+    document.getElementById("btnCopyName").addEventListener("click", async () => {
+      const txt = "Ingeniero Industrial José Luis Álvarez Julca";
+      try { await navigator.clipboard.writeText(txt); toastMsg.textContent = "Nombre copiado."; toast.show(); }
+      catch(e){ toastMsg.textContent = "No se pudo copiar."; toast.show(); }
+    });
+
+    // WhatsApp actions (sin URL explícita en HTML)
+    const wspRaw = "51946457605";
+    const wspDisplay = "+51 946 457 605";
+    const defaultMsg = "Hola, deseo información sobre apoyo académico. ¿Me puede orientar según mi curso y avance?";
+
+    function openWhatsApp(message){
+      const proto = "https";
+      const host = "wa.me";
+      const url = proto + "://" + host + "/" + wspRaw + "?text=" + encodeURIComponent(message || defaultMsg);
+      window.open(url, "_blank", "noopener,noreferrer");
+    }
+
+    document.getElementById("btnWhatsApp").addEventListener("click", () => openWhatsApp(defaultMsg));
+    document.getElementById("btnNavWhats").addEventListener("click", () => openWhatsApp(defaultMsg));
+
+    document.getElementById("btnCopyWsp").addEventListener("click", async () => {
+      try { await navigator.clipboard.writeText(wspDisplay); toastMsg.textContent = "Número copiado."; toast.show(); }
+      catch(e){ toastMsg.textContent = "No se pudo copiar."; toast.show(); }
+    });
+
+    document.getElementById("btnCopyMsg").addEventListener("click", async () => {
+      const txt = (document.getElementById("msgBox").textContent || "").trim();
+      try { await navigator.clipboard.writeText(txt); toastMsg.textContent = "Mensaje copiado."; toast.show(); }
+      catch(e){ toastMsg.textContent = "No se pudo copiar."; toast.show(); }
+    });
+  </script>
+</body>
+</html>
